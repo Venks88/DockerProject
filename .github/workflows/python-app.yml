@@ -36,4 +36,4 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest Dcoker/testCalculator.py
+        pytest https://github.com/Venks88/DockerProject/blob/master/testCalculator.py
